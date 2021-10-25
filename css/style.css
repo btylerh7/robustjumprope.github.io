@@ -13,6 +13,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: #333;
 }
 
 /* style the navbar */
@@ -29,16 +30,20 @@ nav {
     max-width: 850px;
     margin: auto;
 }
-nav ul li {
+.navlist {
     list-style: none;
     display: inline-block;
     margin-left: 1rem;
     padding: 1rem;
 
 }
-nav ul li a {
+.navlinks {
     text-decoration: none;
     color: white;
+}
+.navlist:hover {
+    background-color: #697aff;
+    cursor: grab;
 }
 
 /* Style the heading section */
@@ -56,8 +61,33 @@ nav ul li a {
     align-items: center;
 }
 
+/* Style the three-column section */
+.three-column-section {
+    background-color: var(--main-red);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-width: 850px;
+    margin: auto;
+    grid-gap: 1rem;
+    padding: 1rem;
+    align-items:center;
+    justify-content: center;
+}
 
 /* Styling individual elements */
 h1 {
     font-size: 2rem;
+    color: #333;
+}
+
+
+/* Media queries for size changes */
+@media all and (max-width: 450px) {
+    .navlist {
+        display: flex;
+        flex-direction: column;
+    }
+    nav {
+        justify-content: center;
+    }
 }
