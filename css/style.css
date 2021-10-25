@@ -35,12 +35,9 @@ nav {
     display: inline-block;
     margin-left: 1rem;
     padding: 1rem;
-
-}
-.navlinks {
-    text-decoration: none;
     color: white;
 }
+
 .navlist:hover {
     background-color: #697aff;
     cursor: grab;
