@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --main-blue: #697ae8;
+    --main-yellow: #e8c469;
+    --main-red: #e88469;
+    --off-white: #f2f2f2;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* style the navbar */
+
+.navbar {
+    background-color: var(--main-blue);
+    width: 100%;
+    margin: auto;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 1rem;
+    padding: 1rem;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the heading section */
+
+.heading-section {
+    position: relative;
+    display: flex;
+    background: var(--off-white);
+    padding: 1rem;
+    width: 100%;
+    max-width: 850px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Styling individual elements */
+h1 {
+    font-size: 2rem;
+}
