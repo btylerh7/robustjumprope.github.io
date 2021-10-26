@@ -5,6 +5,7 @@
     --main-yellow: #e8c469;
     --main-red: #e88469;
     --off-white: #f2f2f2;
+    --main-grey: rgba(51,51,51,.3);
 }
 
 
@@ -34,7 +35,7 @@ nav {
     list-style: none;
     display: inline-block;
     margin-left: 1rem;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     color: white;
 }
 
@@ -48,7 +49,7 @@ nav {
 .heading-section {
     position: relative;
     display: flex;
-    background: var(--off-white);
+    background: linear-gradient(270deg, var(--off-white),white);
     padding: 1rem;
     width: 100%;
     max-width: 850px;
@@ -60,7 +61,7 @@ nav {
 
 /* Style the three-column section */
 .three-column-section {
-    background: linear-gradient(90deg, var(--main-blue), #6DBAA1);
+    background-color: var(--main-blue);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     max-width: 850px;
@@ -68,16 +69,22 @@ nav {
     grid-gap: 1rem;
     padding: 1rem;
 }
+
 .card {
-    background-color: var(--off-white);
+    background-color: var(--main-grey);
     padding: 1rem;
     border-radius: 1rem;
+}
+
+.card > p {
+    color: var(--off-white);
 }
 /* Styling individual elements */
 h1 {
     font-size: 2rem;
     color: #333;
 }
+
 
 
 /* Media queries for size changes */
