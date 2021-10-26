@@ -26,13 +26,18 @@
 }
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     max-width: 850px;
     margin: auto;
 }
-.logo img {
-    border-radius: 2rem;
+
+nav > img {
+    width: 5rem;
+    height:5rem;
+    margin: .5rem 0;
+    border-radius: 1.5rem;
 }
 .navlist {
     list-style: none;
