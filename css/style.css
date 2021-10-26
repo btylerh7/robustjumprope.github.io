@@ -57,6 +57,12 @@ nav {
     margin: auto;
     text-align: center;
     align-items: center;
+    flex-direction: column;
+}
+.heading-img {
+    overflow: hidden;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
 }
 
 /* Style the three-column section */
@@ -83,6 +89,7 @@ nav {
 h1 {
     font-size: 2rem;
     color: #333;
+    padding: 5rem 0;
 }
 
 
