@@ -6,6 +6,7 @@
     --main-red: #e88469;
     --off-white: #f2f2f2;
     --main-grey: rgba(51,51,51,.3);
+    --tree-green: #88a52f;
 }
 
 
@@ -20,19 +21,21 @@
 /* style the navbar */
 
 .navbar {
-    background-color: var(--main-blue);
+    background-color: var(--tree-green);
     width: 100%;
     margin: auto;
 }
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end; /* change to space around / between if you add a logo */
     align-items: center;
     width: 100%;
-    max-width: 850px;
+    /* max-width: 850px; */
     margin: auto;
 }
-
+nav ul {
+    margin: 0 5rem;
+}
 nav > img {
     width: 5rem;
     height:5rem;
@@ -40,15 +43,15 @@ nav > img {
     border-radius: 1.5rem;
 }
 .navlist {
-    list-style: none;
     display: inline-block;
+    list-style: none;
     margin-left: 1rem;
     padding: 1.5rem 1rem;
     color: white;
 }
 
 .navlist:hover {
-    background-color: #697aff;
+    background-color: #a9b85c;
     cursor: grab;
 }
 
@@ -57,28 +60,38 @@ nav > img {
 .heading-section {
     position: relative;
     display: flex;
-    background: var(--off-white);
-    padding: 1rem;
+    background-image: url("/images/bridge.png");
+    background-size: cover;
+    background-color: #cccccc;
     width: 100%;
-    max-width: 850px;
+    /* max-width: 850px; */
     height: 100vh;
     margin: auto;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
 }
-.heading-img {
+
+.heading-card {
+    background-color: var(--main-grey);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* .heading-img {
     overflow: hidden;
     border-radius: 2rem;
     padding-bottom: 2rem;
-}
+} */
 
 /* Style the three-column section */
 .three-column-section {
-    background-color: var(--main-blue);
+    background-color: var(--tree-green);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    max-width: 850px;
+    /* max-width: 850px; */
     margin: auto;
     grid-gap: 1rem;
     padding: 1rem;
@@ -96,7 +109,8 @@ nav > img {
 /* Styling individual elements */
 h1 {
     font-size: 2rem;
-    color: #333;
+    color: var(--off-white);
+    text-shadow:2px 1px #333;
     padding: 5rem 0;
 }
 
