@@ -7,7 +7,7 @@ const headers = [
 ];
 
 const images = [
-    "images/tyler-baker-photo-1.png"
+
 ];
 
 const captions = [
@@ -20,8 +20,6 @@ const captions = [
 // functions to create dynamic changing of content
 function changeElements (element) {
     document.getElementById('heading').innerHTML = headers[element];
-    img = document.getElementById('heading-image');
-    img.src = images[element];
     document.getElementById('caption-1').innerHTML = captions[element][0];
     document.getElementById('caption-2').innerHTML = captions[element][1];
     document.getElementById('caption-3').innerHTML = captions[element][2];
