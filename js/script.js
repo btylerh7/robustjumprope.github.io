@@ -12,9 +12,9 @@ const images = [
 
 const captions = [
     ["I love helping people learn the language of music!" , "I love to create. Whether it is music arrangements, html emails, or complete programs.", "I love to help others. My job is to help YOUR life easier.",],
-    [],
-    [],
-    [],
+    ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem sint, repudiandae odio veritatis saepe?","Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem sint, repudiandae odio veritatis saepe?","Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem sint, repudiandae odio veritatis saepe?"],
+    ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem sint, repudiandae odio veritatis saepe?","Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem sint, repudiandae odio veritatis saepe?","Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem sint, repudiandae odio veritatis saepe?"],
+    ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem sint, repudiandae odio veritatis saepe?","Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem sint, repudiandae odio veritatis saepe?","Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem sint, repudiandae odio veritatis saepe?"],
 ];
 
 // functions to create dynamic changing of content
