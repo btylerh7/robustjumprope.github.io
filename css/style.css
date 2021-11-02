@@ -94,8 +94,25 @@ nav > img {
     margin: auto;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
+
+.heading-card > h1 {
+    font-size: 10rem;
+    color: var(--off-white);
+    text-shadow:2px 1px #333;
+    padding: 5rem 0;
+}
+
+.heading-card > h2 {
+    color: var(--off-white);
+    font-size: 4rem;
+    line-height: 20vh;
+    text-shadow:2px 1px #333;
+
+}
+
 /* .heading-img {
     overflow: hidden;
     border-radius: 2rem;
@@ -129,12 +146,7 @@ nav > img {
     box-shadow: 0px 0px 20px black;
 }
 /* Styling individual elements */
-h1 {
-    font-size: 2rem;
-    color: var(--off-white);
-    text-shadow:2px 1px #333;
-    padding: 5rem 0;
-}
+
 
 
 
